@@ -230,13 +230,14 @@ Navbar
   align-items: center;
 }
 .nav-header img {
+  width: 140px;
   margin-bottom: 0.375rem;
 }
 .toggle-btn {
   font-size: 2rem;
   background: transparent;
   border-color: transparent;
-  color: var(--clr-primary-5);
+  color: #8a26b1;
   cursor: pointer;
   transition: var(--transition);
 }
