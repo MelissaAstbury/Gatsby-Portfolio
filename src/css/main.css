@@ -174,7 +174,7 @@ p {
   width: 5rem;
   height: 0.25rem;
   margin-bottom: 1.25rem;
-  background: var(--clr-primary-5);
+  background: #8a25b1;
   margin-left: auto;
   margin-right: auto;
 }
@@ -237,7 +237,7 @@ Navbar
   font-size: 2rem;
   background: transparent;
   border-color: transparent;
-  color: #cb96e0;
+  color: #8a25b1;
   cursor: pointer;
   transition: var(--transition);
 }
@@ -442,7 +442,7 @@ Hero
 }
 .hero .btn {
   margin-top: 1.25rem;
-  background-color: #cb96e0;
+  background-color: #8a25b1;
 }
 
 @media screen and (min-width: 992px) {
@@ -515,14 +515,14 @@ Services
   transition: var(--transition);
 }
 .service:hover {
-  background: var(--clr-primary-5);
-  color: var(--clr-primary-9);
+  background: #eed7f7;
+  color: black;
 }
 .service:hover p {
-  color: var(--clr-primary-9);
+  color: black;
 }
 .service:hover .underline {
-  background: var(--clr-primary-9);
+  background: black;
 }
 @media screen and (min-width: 676px) {
   .services-center {
