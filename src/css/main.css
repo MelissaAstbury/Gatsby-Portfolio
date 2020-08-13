@@ -237,12 +237,12 @@ Navbar
   font-size: 2rem;
   background: transparent;
   border-color: transparent;
-  color: #8a26b1;
+  color: #cb96e0;
   cursor: pointer;
   transition: var(--transition);
 }
 .toggle-btn:hover {
-  color: #8a26b1;
+  color: #cb96e0;
 }
 .nav-links {
   display: none;
@@ -411,7 +411,7 @@ Hero
   margin-top: -5rem;
   padding-top: 5rem;
   height: 100vh;
-  background: var(--clr-primary-10);
+  background: #eed7f7;
   position: relative;
 }
 
@@ -426,11 +426,13 @@ Hero
   margin-left: 0;
 }
 .hero-info {
-  background: var(--clr-primary-10);
+  background: #eed7f7;
 }
 .hero-img {
   display: none;
-  border-radius: 25px;
+  border-radius: 20px;
+  width: 200px;
+  height: 300px;
 }
 .hero-info h4 {
   color: var(--clr-grey-5);
@@ -440,6 +442,7 @@ Hero
 }
 .hero .btn {
   margin-top: 1.25rem;
+  background-color: #cb96e0;
 }
 
 @media screen and (min-width: 992px) {
